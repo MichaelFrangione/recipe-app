@@ -1,0 +1,13 @@
+.header {
+    background: #222;
+    color: #fff;
+
+    &__nav {
+      text-align: right;
+
+      &__list-item {
+        display:inline-block;
+        margin: 10px 20px;
+      }
+    }
+}
