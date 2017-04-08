@@ -14,6 +14,21 @@ ul {
 .App-intro {
   font-size: large; }
 
+table {
+  background: #eee; }
+
+.thumbnail {
+  min-height: 434px; }
+  .thumbnail img {
+    width: 250px;
+    height: 250px; }
+  .thumbnail button {
+    position: absolute;
+    bottom: 45px; }
+
+.landing {
+  background: #F8C00e; }
+
 .header {
   background: #001420;
   color: #fff; }
@@ -43,3 +58,10 @@ ul {
   height: 150px;
   padding: 20px;
   color: white; }
+
+.home__jumbotron {
+  margin-top: 30px;
+  min-height: 420px; }
+  .home__jumbotron button {
+    position: absolute;
+    bottom: 78px; }

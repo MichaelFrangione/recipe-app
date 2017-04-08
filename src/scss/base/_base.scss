@@ -18,3 +18,24 @@ ul {
   font-size: large;
 }
 
+table {
+  background: #eee;
+}
+
+.thumbnail {
+  min-height: 434px;
+
+  img {
+    width: 250px;
+    height: 250px;
+  }
+
+  button {
+    position: absolute;
+    bottom: 45px;
+  }
+}
+
+.landing {
+  background: $color-orange;
+}

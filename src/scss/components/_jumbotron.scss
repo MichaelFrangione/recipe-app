@@ -1,1 +1,9 @@
-.home__jumbotron {}
+.home__jumbotron {
+    margin-top: 30px;
+    min-height: 420px;
+
+    button {
+        position: absolute;
+        bottom: 78px;
+    }
+}
