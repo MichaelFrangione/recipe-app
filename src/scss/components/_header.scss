@@ -1,9 +1,16 @@
 .header {
-    background: #222;
+    background: $color5;
     color: #fff;
 
     &__nav {
-      text-align: right;
+      margin-bottom: 0;
+      
+      &__brand {
+        a {
+          color: $color-white;
+          &:hover {text-decoration: none;}
+        }
+      }
 
       &__list-item {
         display:inline-block;
@@ -11,3 +18,22 @@
       }
     }
 }
+
+ul {
+  padding: 0;
+  margin: 0; }
+
+.App {
+  text-align: left; }
+
+.App-logo {
+  height: 100%;
+  margin-right:15px;
+}
+
+.App-header {
+  background-color: $color4;
+  height: 150px;
+  padding: 20px;
+  color: white; }
+
